@@ -95,6 +95,7 @@ nav{
 .random__item{
     height: 250px;
     width: 200px;
+    text-align: center;
    
 }
 .random__image{
@@ -121,3 +122,29 @@ nav{
     text-align: right;
     padding: 0 200px 50px;
 }
+/* Call section */
+.call{
+    background-color:#3882f6 ;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    color: #E5E7EB ;
+    justify-content: space-around;
+    margin: 50px 200px;
+}
+
+.call__heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+  
+}
+.call .btn{
+    border: #fff 2px solid;
+    align-self: center;
+}
+.call p{
+    margin-top: 0;
+}
+
