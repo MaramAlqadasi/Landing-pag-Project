@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: ropoto,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    padding:20px;
+    justify-content: space-between;
+}
+.logo{
+    font-size:24px ;
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 0;
+
+}
+nav{
+    display: flex;
+    gap:20px;
+    font-size: 20px;
+
+}
+.nav__item{
+    color: #cbd6c1;
+    text-decoration: none;
+    transition: color .3s;
+
+  
+}
+.nav__item:hover{
+    color: #fff;
+}
+
